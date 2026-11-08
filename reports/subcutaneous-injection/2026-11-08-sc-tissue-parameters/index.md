@@ -22,7 +22,7 @@ Evidence rule: human *in vivo*/*ex vivo* primary; preclinical admitted only as a
 
 ## Pooled values by site
 
-![Figure 1. Each point is one reported group mean (human in vivo); bar = median across reports. Panel d is log-scaled; "n.d." = no qualifying entry.](sc_parameters_by_site.png)
+![Figure 1. Each point is one reported group mean (human in vivo); bar = median across reports. Panel d is log-scaled; "n.d." = no qualifying entry.](sc_parameters_by_site.svg)
 
 | Site | Fat (mm) | Depth to muscle (mm) | Dermis (mm) | Blood flow (mL/100g/min) |
 |---|---|---|---|---|
