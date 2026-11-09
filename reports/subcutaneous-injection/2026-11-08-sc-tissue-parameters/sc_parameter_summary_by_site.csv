@@ -1,0 +1,21 @@
+param_family,units,site,n_entries,n_papers,median_of_means,mean_of_means,min_reported,max_reported,iqr_lo,iqr_hi,n_weighted_mean,total_subjects,typical_sd
+1_fat_layer_thickness,mm,abdomen,12,7,16.725,16.358,8.8,24.3,11.162,21.625,14.721,1396,8.0
+1_fat_layer_thickness,mm,buttock,17,10,23.1,27.465,2.7,61.7,15.92,33.2,23.175,3324,4.08
+1_fat_layer_thickness,mm,other/unspecified,19,9,7.45,12.115,0.67,52.0,3.08,10.45,9.454,923,1.585
+1_fat_layer_thickness,mm,thigh,16,8,9.8,12.774,2.7,29.2,6.875,18.75,14.195,1178,2.1
+1_fat_layer_thickness,mm,upper arm,7,5,5.62,7.327,2.3,15.38,4.45,9.545,9.411,722,2.63
+2_dermis_thickness,mm,abdomen,5,5,2.29,2.27,1.95,2.46,2.2,2.45,2.241,702,0.355
+2_dermis_thickness,mm,buttock,2,2,2.345,2.345,2.29,2.4,2.318,2.372,2.377,489,
+2_dermis_thickness,mm,other/unspecified,24,11,1.35,1.589,0.89,3.3,1.148,1.782,1.919,1268,0.165
+2_dermis_thickness,mm,thigh,5,4,1.89,1.784,1.55,1.93,1.65,1.9,1.747,1018,0.55
+2_dermis_thickness,mm,upper arm,8,8,2.01,1.918,1.32,2.2,1.835,2.135,2.033,1093,0.34
+3_depth_to_muscle,mm,abdomen,10,3,11.15,16.271,4.33,50.39,9.355,12.3,9.0,621,4.7
+3_depth_to_muscle,mm,buttock,5,3,9.76,17.33,6.48,45.0,8.51,16.9,12.743,820,3.65
+3_depth_to_muscle,mm,other/unspecified,12,5,1.775,5.708,1.08,14.75,1.415,12.93,3.83,620,0.08
+3_depth_to_muscle,mm,thigh,25,11,11.0,12.607,1.0,30.1,7.9,16.69,10.982,1650,2.89
+3_depth_to_muscle,mm,upper arm,13,7,12.7,12.335,1.22,22.54,7.79,17.94,9.355,1669,4.54
+5_fat_blood_flow,mL/100g/min,abdomen,51,15,3.2,5.733,0.04,49.8,2.15,4.725,7.93,543,0.6
+5_fat_blood_flow,mL/100g/min,other/unspecified,9,2,4.3,4.756,1.3,10.5,1.6,6.9,4.922,69,2.2
+5_fat_blood_flow,mL/100g/min,thigh,16,5,2.55,3.138,1.0,6.9,1.8,4.15,2.948,126,0.45
+7_fat_stiffness,kPa,other/unspecified,7,3,27.82,32.691,15.0,63.9,17.4,43.66,33.321,166,30.735
+7_fat_stiffness,kPa,thigh,1,1,1.85,1.85,1.85,1.85,1.85,1.85,1.85,7,0.17

@@ -1,0 +1,49 @@
+search_id,query,pubmed_hits,retrieved
+fat_thickness_us,subcutaneous adipose tissue thickness ultrasound injection site abdomen thigh,7.0,7
+fat_thickness_sites,subcutaneous fat thickness body site variation adults BMI ultrasound measurement,5.0,5
+fat_thickness_insulin,subcutaneous fat thickness insulin injection needle length children adults,0.0,0
+fat_thickness_mri,subcutaneous adipose tissue thickness MRI abdomen thigh sex differences,0.0,0
+skin_thickness,skin thickness ultrasound dermis injection site human measurement,5.0,5
+skin_thickness_var,dermal thickness age sex body site variation humans intradermal injection,0.0,0
+depth_to_muscle,skin to muscle distance intramuscular injection needle length ultrasound adults,14.0,14
+sc_depth_device,subcutaneous injection depth needle length tissue thickness autoinjector,4.0,4
+atbf_xenon,adipose tissue blood flow xenon washout subcutaneous humans,,0
+atbf_regulation,subcutaneous adipose tissue blood flow obesity insulin humans measurement,61.0,30
+atbf_absorption,subcutaneous blood flow insulin absorption injection site humans,24.0,24
+lipohypertrophy,lipohypertrophy insulin injection sites ultrasound prevalence,10.0,10
+lipo_absorption,lipohypertrophy insulin absorption pharmacokinetics injection,2.0,2
+fat_elastography,subcutaneous adipose tissue stiffness elastography shear wave human,25.0,25
+fat_mechanics,mechanical properties subcutaneous adipose tissue elastic modulus indentation,1.0,1
+skin_mechanics,skin subcutaneous tissue mechanical properties in vivo elastic modulus human,5.0,5
+lvsi_model,large volume subcutaneous injection tissue model depot biomechanics,1.0,1
+sc_injection_var,subcutaneous injection patient variability tissue properties drug delivery model,0.0,0
+fat_thick_mesh,"(""Subcutaneous Fat""[MeSH] OR ""subcutaneous adipose tissue"") AND thickness AND (ultrasonography OR ultrasound OR MRI OR ""computed tomography"") AND humans[MeSH]",621.0,40
+fat_thick_inj,"""subcutaneous fat thickness"" AND (injection OR needle)",35.0,35
+fat_thick_site,"(""subcutaneous fat thickness"" OR ""subcutaneous adipose tissue thickness"") AND (abdomen OR thigh OR buttock OR arm)",220.0,40
+skin_thick_mesh,"(""skin thickness"" OR ""dermal thickness"" OR ""dermis thickness"") AND (ultrasound OR ultrasonography OR histology) AND humans[MeSH]",1429.0,40
+skin_thick_site,"(""skin thickness"" OR ""dermal thickness"") AND (body site OR regional OR anatomical site) AND human",331.0,40
+skin_thick_diab,"""skin thickness"" AND diabetes AND injection",19.0,19
+needle_len,(needle length OR needle size) AND (intramuscular OR subcutaneous) AND (thickness OR depth) AND injection,122.0,40
+sc_tissue_depth,"(""skin to muscle"" OR ""subcutaneous tissue depth"" OR ""tissue depth"") AND injection AND ultrasound",44.0,40
+atbf,"(""adipose tissue blood flow"" OR ""subcutaneous blood flow"") AND human",321.0,40
+atbf_133xe,"""adipose tissue blood flow"" AND (xenon OR microdialysis OR ethanol)",106.0,40
+atbf_perm,"(adipose OR ""subcutaneous tissue"") AND (capillary permeability OR ""blood-tissue exchange"" OR perfusion) AND human",1128.0,40
+lipo2,lipohypertrophy AND insulin,332.0,40
+lipo_us,(lipohypertrophy OR lipodystrophy) AND insulin AND ultrasound,138.0,40
+fat_stiff,"(adipose OR ""subcutaneous tissue"" OR ""subcutaneous fat"") AND (stiffness OR ""Young's modulus"" OR ""elastic modulus"" OR elastography)",2124.0,40
+fat_stiff_swe,"""shear wave elastography"" AND (subcutaneous OR adipose OR fat)",320.0,40
+sc_inj_model,"""subcutaneous injection"" AND (model OR simulation) AND (tissue OR biomechanic OR pressure)",2190.0,40
+lvsi,"(""large volume"" OR ""high volume"") AND subcutaneous AND injection",186.0,40
+sc_backpressure,subcutaneous injection AND (back pressure OR injection force OR tissue backpressure),690.0,40
+adipose_hyperelastic,"(adipose OR fat) AND (hyperelastic OR ""constitutive model"" OR Ogden OR ""neo-Hookean"" OR viscoelastic) AND (human OR porcine) AND (mechanical OR tissue)",246.0,40
+adipose_indent,"""adipose tissue"" AND (indentation OR compression OR ""tensile test"" OR rheometry) AND (modulus OR stiffness OR ""mechanical properties"")",153.0,40
+sc_tissue_modulus,"(""subcutaneous tissue"" OR hypodermis) AND (modulus OR stiffness OR mechanical)",2760.0,40
+swe_fat_norm,"(""shear wave elastography"" OR ""ultrasound elastography"") AND (""subcutaneous fat"" OR hypodermis OR ""subcutaneous tissue"") AND (normal OR healthy OR reference)",45.0,40
+skin_layers_us,"(""skin thickness"" OR ""epidermal thickness"" OR ""dermal thickness"") AND (""high-frequency ultrasound"" OR ""optical coherence tomography"") AND (forearm OR abdomen OR thigh OR arm)",66.0,40
+skin_thick_body,"""skin thickness"" AND (""body sites"" OR ""regional variation"" OR ""anatomical region"")",21.0,21
+atbf_values,"""adipose tissue blood flow"" AND (fasting OR basal OR ""ml/100 g"")",78.0,40
+atbf_obesity,"""adipose tissue blood flow"" AND (obese OR obesity OR BMI)",83.0,40
+lipo_dim,lipohypertrophy AND (ultrasound OR ultrasonography) AND (size OR volume OR thickness OR dimensions),16.0,16
+sc_hydraulic,"(subcutaneous OR hypodermis OR ""adipose tissue"") AND (""hydraulic conductivity"" OR permeability OR ""interstitial fluid pressure"") AND injection",1034.0,40
+lvsi_pressure,"""subcutaneous injection"" AND (pressure OR force) AND (volume OR ""injection rate"") AND human",56.0,40
+insulin_abs_site,insulin absorption AND (abdomen OR thigh OR arm) AND (injection site OR regional),62.0,40
