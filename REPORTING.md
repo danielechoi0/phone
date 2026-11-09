@@ -48,6 +48,20 @@ Don't repeat the title as a `# H1`; the page header already shows it. Start the 
 - **Diagrams**: fenced ```` ```mermaid ```` blocks (flowchart, sequence, gantt…).
 - **CSV tables**: fenced ```` ```csv ```` blocks become sortable tables.
 - **Images**: standalone images become figures; the alt text is the caption. Tap to zoom. Prefer PNG/SVG at least 1200px wide.
+- **Tabs**: split a long report into tabs with HTML comments on their own lines (blank line before and after). Everything after `<!-- tab: Label -->` goes in that tab until the next tab marker; `<!-- /tabs -->` ends the group. Content before the first marker shows above the tabs. Charts inside tabs draw when the tab is opened, and contents-list links switch to the right tab.
+  ```md
+  <!-- tab: Results -->
+
+  ## Results
+  ...
+
+  <!-- tab: Methods -->
+
+  ## Methods
+  ...
+
+  <!-- /tabs -->
+  ```
 - **Collapsible sections**: `<details><summary>Raw output</summary> ... </details>` for long logs and appendices.
 - **Links** to other `.md` reports in the repo go to that report's page. Links to other files (CSV, PDF) open the raw file.
 - **Standalone HTML reports**: a self-contained `.html` file (e.g. `reports/<project>/<slug>/index.html` with no `index.md` next to it) is shown full-width in a frame. Its `<title>` becomes the report title.

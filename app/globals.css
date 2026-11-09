@@ -177,6 +177,24 @@ code, pre { font-family: var(--mono); }
 .callout-caution, .callout-danger, .callout-error { --c: #c0453a; }
 .callout-summary, .callout-tldr, .callout-abstract { --c: var(--accent); }
 
+/* tabs */
+html:has(.tabs) { scroll-padding-top: 112px; }
+.tabs { margin-top: 18px; }
+.tab-bar {
+  position: sticky; top: calc(env(safe-area-inset-top) + 45px); z-index: 5;
+  display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none;
+  margin: 0 -18px; padding: 8px 18px; background: var(--bg); border-bottom: 1px solid var(--rule);
+}
+.tab-bar::-webkit-scrollbar { display: none; }
+.tab-btn {
+  flex: none; font: 600 14px var(--sans); padding: 7px 14px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--rule); background: var(--surface); color: var(--text);
+}
+.tab-btn[aria-selected="true"] { background: var(--text); color: var(--bg); border-color: var(--text); }
+.tab-panel > :first-child { margin-top: 1.2em; }
+.toc .toc-d1 { font-weight: 650; font-family: var(--sans); }
+.toc .toc-d1 a { color: var(--accent); }
+
 /* charts / diagrams / math */
 .chart { margin: 1.6em 0; padding: 12px; border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); }
 .chart-canvas { position: relative; height: 300px; }
@@ -221,4 +239,5 @@ code, pre { font-family: var(--mono); }
   .report-head h1 { font-size: 40px; }
   .cards { grid-template-columns: 1fr 1fr; }
   .table-wrap { margin-left: 0; margin-right: 0; padding: 0; }
+  .tab-bar { margin: 0; padding-left: 0; padding-right: 0; }
 }

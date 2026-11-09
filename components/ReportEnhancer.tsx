@@ -7,8 +7,11 @@ function cssVar(name: string) {
   return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 }
 
+/** Charts and diagrams in hidden tab panels are drawn when their tab is first shown. */
+const visible = (e: HTMLElement) => !e.closest(".tab-panel[hidden]");
+
 async function renderCharts(root: HTMLElement) {
-  const figs = [...root.querySelectorAll<HTMLElement>("figure.chart:not([data-done])")];
+  const figs = [...root.querySelectorAll<HTMLElement>("figure.chart:not([data-done])")].filter(visible);
   if (!figs.length) return;
   const { default: Chart } = await import("chart.js/auto");
   Chart.defaults.color = cssVar("--muted");
@@ -53,7 +56,7 @@ async function renderCharts(root: HTMLElement) {
 }
 
 async function renderMermaid(root: HTMLElement) {
-  const blocks = [...root.querySelectorAll<HTMLElement>(".mermaid-block:not([data-done])")];
+  const blocks = [...root.querySelectorAll<HTMLElement>(".mermaid-block:not([data-done])")].filter(visible);
   if (!blocks.length) return;
   const { default: mermaid } = await import("mermaid");
   const dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -129,6 +132,54 @@ function copyButtons(root: HTMLElement) {
   });
 }
 
+function setupTabs(root: HTMLElement) {
+  if (!root.querySelector(".tabs") || root.dataset.tabs) return;
+  root.dataset.tabs = "1";
+  const activate = (panel: HTMLElement) => {
+    const group = panel.parentElement!;
+    group.querySelectorAll<HTMLElement>(":scope > .tab-panel").forEach((p) => (p.hidden = p !== panel));
+    group.querySelectorAll<HTMLElement>(":scope > .tab-bar > .tab-btn").forEach((b) => {
+      const on = b.dataset.tab === panel.id;
+      b.setAttribute("aria-selected", String(on));
+      if (on) b.scrollIntoView({ block: "nearest", inline: "nearest" });
+    });
+    renderCharts(panel);
+    renderMermaid(panel);
+  };
+  /** Show the tab that holds the element with this id; returns the element to scroll to. */
+  const reveal = (id: string) => {
+    const t = id && document.getElementById(id);
+    if (!t) return null;
+    const panel = t.classList.contains("tab-panel") ? t : t.closest<HTMLElement>(".tab-panel");
+    if (panel && panel.hidden) activate(panel);
+    return t.classList.contains("tab-panel") ? t.parentElement : t;
+  };
+  root.querySelectorAll<HTMLButtonElement>(".tab-btn").forEach((btn) =>
+    btn.addEventListener("click", () => {
+      const panel = document.getElementById(btn.dataset.tab ?? "");
+      if (!panel) return;
+      activate(panel);
+      history.replaceState(null, "", "#" + panel.id);
+      const group = panel.parentElement!;
+      if (group.getBoundingClientRect().top < 0) group.scrollIntoView({ block: "start" });
+    }),
+  );
+  // In-page links (contents list, cross-references) open the right tab first.
+  document.addEventListener("click", (e) => {
+    const a = (e.target as HTMLElement).closest<HTMLAnchorElement>('a[href^="#"]');
+    if (!a) return;
+    const id = decodeURIComponent(a.getAttribute("href")!.slice(1));
+    const target = reveal(id);
+    if (target && target !== document.getElementById(id)) {
+      e.preventDefault();
+      history.replaceState(null, "", "#" + id);
+      target.scrollIntoView({ block: "start" });
+    }
+  });
+  window.addEventListener("hashchange", () => reveal(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView({ block: "start" }));
+  if (location.hash) requestAnimationFrame(() => reveal(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView({ block: "start" }));
+}
+
 export default function ReportEnhancer() {
   useEffect(() => {
     const root = document.querySelector<HTMLElement>(".prose");
@@ -136,6 +187,7 @@ export default function ReportEnhancer() {
     makeSortable(root);
     copyButtons(root);
     lightbox(root);
+    setupTabs(root);
     renderCharts(root);
     renderMermaid(root);
   }, []);

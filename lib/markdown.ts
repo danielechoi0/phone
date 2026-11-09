@@ -12,7 +12,7 @@ import rehypeHighlight from "rehype-highlight";
 import rehypeStringify from "rehype-stringify";
 import { visit, SKIP } from "unist-util-visit";
 import { toString } from "hast-util-to-string";
-import type { Root, Element, ElementContent, Parent } from "hast";
+import type { Root, Element, ElementContent, Parent, RootContent } from "hast";
 
 export interface TocItem {
   id: string;
@@ -74,6 +74,48 @@ function csvTable(src: string): Element {
       el("tbody", {}, body.map((r) => el("tr", {}, r.map((c) => el("td", {}, [text(c)]))))),
     ]),
   ]);
+}
+
+/** `<!-- tab: Label -->` comments split top-level content into tab panels; `<!-- /tabs -->` ends the group. */
+function rehypeTabs() {
+  const TAB = /^\s*tab:\s*(.+?)\s*$/i;
+  const END = /^\s*\/tabs\s*$/i;
+  return (tree: Root) => {
+    const out: RootContent[] = [];
+    const used = new Set<string>();
+    let bar: Element | null = null;
+    let group: Element | null = null;
+    let panel: Element | null = null;
+    for (const node of tree.children) {
+      if (node.type === "comment") {
+        const m = node.value.match(TAB);
+        if (m) {
+          const label = m[1];
+          if (!group) {
+            bar = el("div", { className: ["tab-bar"], role: "tablist" });
+            group = el("div", { className: ["tabs"] }, [bar]);
+            out.push(group);
+          }
+          const base = "tab-" + (label.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "x");
+          let id = base;
+          for (let k = 2; used.has(id); k++) id = `${base}-${k}`;
+          used.add(id);
+          const first = group.children.length === 1;
+          bar!.children.push(el("button", {
+            type: "button", role: "tab", className: ["tab-btn"], id: `${id}-btn`,
+            ariaControls: id, ariaSelected: first ? "true" : "false", dataTab: id,
+          }, [text(label)]));
+          panel = el("section", { className: ["tab-panel"], id, role: "tabpanel", ariaLabelledBy: `${id}-btn`, dataLabel: label, hidden: !first });
+          group.children.push(panel);
+          continue;
+        }
+        if (END.test(node.value)) { bar = group = panel = null; continue; }
+      }
+      if (panel) panel.children.push(node as ElementContent);
+      else out.push(node);
+    }
+    tree.children = out;
+  };
 }
 
 /** ```chart / ```mermaid / ```csv fenced blocks -> special elements. */
@@ -184,6 +226,10 @@ function rehypeLayout() {
 function rehypeToc(toc: TocItem[]) {
   return () => (tree: Root) => {
     visit(tree, "element", (node: Element) => {
+      if (node.tagName === "section" && node.properties.dataLabel && node.properties.id) {
+        toc.push({ id: String(node.properties.id), text: String(node.properties.dataLabel), depth: 1 });
+        return;
+      }
       const m = node.tagName.match(/^h([23])$/);
       if (m && node.properties.id) toc.push({ id: String(node.properties.id), text: toString(node), depth: Number(m[1]) });
     });
@@ -198,6 +244,7 @@ export async function renderMarkdown(md: string, opts: Options): Promise<{ html:
     .use(remarkMath)
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeRaw)
+    .use(rehypeTabs)
     .use(rehypeSpecialBlocks)
     .use(rehypeCallouts)
     .use(rehypeRewriteUrls, opts)

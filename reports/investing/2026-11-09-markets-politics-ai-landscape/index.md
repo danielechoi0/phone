@@ -15,25 +15,10 @@ The short answer is that 2026 has been a year of shocks, and the long-term rules
 > [!CAVEAT] How far to trust these numbers
 > This report was built from news and web-search **summaries**. Direct page fetches of most primary sources (IRS, IMF, FactSet, CNBC, the Fed) were blocked during research, so exact figures are "as reported" and were not checked against original documents. Many market numbers come from secondary blogs and aggregators. **Where sources conflicted, the conflict is flagged in the text.** Treat decimals as approximate, and check anything you act on against a primary source. This is educational content, not personalized financial advice.
 
-## Where everything stands on Nov 9, 2026
+> [!NOTE] How this page is organized
+> Use the tabs below. **Landscape** explains what happened in 2026 and why. **Exact numbers** lists every figure with its date, source and a confidence rating. **Buying a stock** is a checklist for evaluating a single company. **Basics** covers accounts, asset classes, taxes and practical steps for a young investor.
 
-The table below gives the latest readings found, mostly Friday Nov 6 closes. Context matters more than any single number. Stocks sit between a record high and a possible test of a widely watched technical level (the 200-day moving average). Bond yields are high but have eased from their October peak. Oil just had its biggest weekly fall since 2020. Gold and crypto are both well off their highs.
-
-| Asset | Latest level | Recent move | 2026 context |
-|---|---|---|---|
-| S&P 500 | 7,376.86 (Nov 6) | −2.7% on the week | ~+7.8% YTD price, ~+8.7% total return; record 7,818.93 on Oct 6 |
-| Nasdaq Composite | 24,579.42 | −3.4% wk, 4th straight weekly loss | Entered correction Nov 5; ~+5% YTD (weakly sourced) |
-| Russell 2000 | n/a | ~−2% wk | ~+11% YTD, best US major index |
-| 10-yr Treasury | ~4.86% | down ~7bp on week | Peaked 5.67% on Oct 7 |
-| 2-yr Treasury | ~4.51% | — | +104bp YTD, as markets priced Fed hikes |
-| Fed funds | 3.75–4.00% | Held Oct 28 (10–2) | Hiked Sept 16; Dec hike priced ~76–83% |
-| Brent crude | ~$98.32 | −15 to −17% on week | ~$72 pre-war; futures high $126.41 (Apr 30) |
-| Gold | ~$4,050–4,090/oz | +4.5–5% on week | Record ~$5,405 (Jan 29); ~−5.8% YTD |
-| Bitcoin | ~$75–76k | −2% since Nov 1 | Spot ETF flows net negative for 2026 |
-| Dollar index | ~101.5–102.3 | +0.75% on jobs day | Sources conflict on level |
-| 30-yr mortgage | 7.18% | 3rd weekly decline | 2026 low 5.98% (late Feb) |
-
-Sources: S&P levels ([chartrow](https://chartrow.com/sp500/ytd), an aggregator, and [CNBC](https://www.cnbc.com/2026/11/06/stock-market-next-week-outlook-for-nov-9-13-2026.html)); Nasdaq and Russell ([Investomine](https://investomine.substack.com/p/weekly-market-report6-november-2026); [T. Rowe Price](https://www.troweprice.com/personal-investing/resources/insights/global-markets-weekly-update.html)); yields ([ETF Trends](https://www.etftrends.com/fixed-income-content-hub/treasury-yields-snapshot-november-6-2026/); [Trading Economics](https://tradingeconomics.com/united-states/government-bond-yield)); Fed ([CNBC](https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html)); oil ([Trading Economics](https://tradingeconomics.com/commodity/brent-crude-oil/news/530749); [IranWire/Reuters](https://iranwire.com/en/news/159893-global-oil-prices-drop-sharply-amid-reports-of-potential-iranus-peace-talks)); gold ([USAGOLD](https://www.usagold.com/daily-precious-metals-market-report-november-6-2026/); [Kitco](https://www.kitco.com/price/precious-metals)); bitcoin and dollar ([Ted Pillows Substack](https://tedpillows.substack.com/p/crypto-and-finance-market-report-65f); [Discovery Alert](https://discoveryalert.com/analysis/dollar-index-gold-liquidity-dxy-november-2026/)); mortgages ([Freddie Mac](https://www.globenewswire.com/news-release/2026/11/05/3396882/0/en/mortgage-rates-decline-for-third-consecutive-week-to-7-18.html)).
+<!-- tab: Landscape -->
 
 ## Five shocks moved 2026 markets, and oil connected most of them
 
@@ -92,7 +77,7 @@ After that, oil swung on each round of diplomacy. An Apr 7 ceasefire cut US crud
 }
 ```
 
-The war is not over. Tanker attacks continue, Hormuz flows have reportedly run below 60% of capacity on some measures, no formal deal has been announced, and Trump has said he is choosing between a deal and further military action ([OilPrice.com](https://oilprice.com/Energy/Energy-General/The-Iran-War-Isnt-Over-but-Oil-Traders-Are-Already-Pricing-In-Peace.html)). Other reports say Hormuz crude volumes are near pre-war levels, but at higher cost ([NBC News](https://www.nbcnews.com/business/energy/oil-prices-iran-war-midterms-rcna607448)). Oil is still roughly **60–70% above pre-war levels**. Goldman's December Brent forecast is **$105**, with **$140** possible if Gulf output stays depressed ([OilPrice.com](https://oilprice.com/Energy/Energy-General/The-Iran-War-Isnt-Over-but-Oil-Traders-Are-Already-Pricing-In-Peace.html)). OPEC+ has left quotas unchanged for November and December, but with Gulf exports at 60–80% of normal, its announced increases exist mostly on paper ([Bloomberg](https://www.bloomberg.com/news/articles/2026-11-01/opec-set-to-stick-with-plan-for-steady-quotas-delegates-say); [Enerdata](https://www.enerdata.net/publications/daily-energy-news/opec-keeps-november-2026-production-targets-unchanged-amid-supply-disruptions.html)). The market is pricing peace faster than the shipping lanes show it. That makes oil the most likely source of a renewed shock to inflation and bonds.
+The war is not over. Tanker attacks continue, Hormuz flows have reportedly run below 60% of capacity on some measures, no formal deal has been announced, and Trump has said he is choosing between a deal and further military action ([OilPrice.com](https://oilprice.com/Energy/Energy-General/The-Iran-War-Isnt-Over-but-Oil-Traders-Are-Already-Pricing-In-Peace.html)). Other reports say Hormuz crude volumes are near pre-war levels, but at higher cost ([NBC News](https://www.nbcnews.com/business/energy/oil-prices-iran-war-midterms-rcna607448)). Oil is still roughly **35–40% above pre-war levels** (and was about 75% above at the April peak). Goldman's December Brent forecast is **$105**, with **$140** possible if Gulf output stays depressed ([OilPrice.com](https://oilprice.com/Energy/Energy-General/The-Iran-War-Isnt-Over-but-Oil-Traders-Are-Already-Pricing-In-Peace.html)). OPEC+ has left quotas unchanged for November and December, but with Gulf exports at 60–80% of normal, its announced increases exist mostly on paper ([Bloomberg](https://www.bloomberg.com/news/articles/2026-11-01/opec-set-to-stick-with-plan-for-steady-quotas-delegates-say); [Enerdata](https://www.enerdata.net/publications/daily-energy-news/opec-keeps-november-2026-production-targets-unchanged-amid-supply-disruptions.html)). The market is pricing peace faster than the shipping lanes show it. That makes oil the most likely source of a renewed shock to inflation and bonds.
 
 ## The Fed turned from cutting to hiking, and bonds felt it
 
@@ -265,6 +250,358 @@ Two longer-running themes matter for portfolios. **European defense spending** i
 
 **Crypto** is in risk-off mode. Bitcoin is about **$75,000**, ether about **$2,200**, and the Crypto Fear & Greed Index reads 28 ([Cryptoticker](https://cryptoticker.io/en/crypto-news-this-week-recap-key-dates-november-2026/)). **Net flows into spot bitcoin ETFs for 2026 have turned negative** ([MLQ.ai](https://mlq.ai/news/bitcoin-etfs-turn-negative-for-2026-after-a-128-billion-outflow-week-the-worst-since-june/)). More than $1.1B of leveraged long positions were liquidated on Nov 5–6 ([Interactive Crypto](https://www.interactivecrypto.com/bitcoin-s-2026-gains-erased-etf-outflows-overwhelm-regulatory-win)). The **CLARITY Act** market-structure bill failed a Senate cloture vote in September, and with Congress about to split, a 2026 deal looks unlikely ([CoinDesk](https://www.coindesk.com/markets/2026/09/16/bitcoin-etfs-shed-usd450-million-as-clarity-act-fails)). This year, crypto has traded like a leveraged tech stock, not like a hedge.
 
+## What to watch next
+
+| Date | Event | Why it matters |
+|---|---|---|
+| Nov 10 | October CPI (no headline YoY rate) | Sets the tone for the December Fed decision |
+| ~Nov 10–11 | US–Russia–Ukraine talks, Abu Dhabi | Defense stocks, European risk |
+| Nov 17 (reported) | Nvidia earnings | Biggest single test for the AI trade |
+| Nov 19 | Bids due on data-center loan auction | Signal of AI credit stress |
+| Before Nov 26 (target) | Possible Anthropic IPO | First public valuation of a frontier AI lab |
+| Dec 8–9 | FOMC meeting (~76–83% hike odds) | Bonds, mortgages, stock valuations |
+| Dec 11 | Government funding deadline | Shutdown risk and possible data delays |
+| Jan 10, 2027 | US–China truce and rare-earth suspension expire | Tariffs, chips, supply chains |
+| Ongoing | US–Iran talks and Hormuz shipping | Oil, inflation and the Fed |
+
+Sources: [StockTitan](https://www.stocktitan.net/articles/october-2026-cpi-preview-no-yearly-rate), [Axios](https://www.axios.com/2026/11/03/us-russia-ukraine-peace-talks-uae-trump-witkoff-kushner), [top1markets](https://www.top1markets.com/news/qqq-stock-nasdaq-100-selloff-ai-capex-nvidia-earnings) (single source for the Nvidia date), [Startup Fortune](https://startupfortune.com/a-500-million-pile-of-data-center-loans-just-hit-the-auction-block/), [mlq.ai](https://mlq.ai/news/anthropics-ipo-what-we-know-about-the-timing-valuation-ticker-and-the-s-1/), [MPA](https://www.mpamag.com/us/mortgage-industry/industry-trends/key-dates-that-will-define-kevin-warshs-opening-months-as-fed-chair/576298), [IEDC](https://www.iedconline.org/news/2026/09/09/this-week-in-iedc-news/congress-passes-short-term-funding-bill-extending-federal-funding-through-december-11/), [Mainrich](https://www.mainrichinternational.com/resources/articles/trump-xi-summit-september-2026-rare-earth-magnet-export-controls).
+
+## Conclusion
+
+The main lesson of 2026 is that the risks investors expected were not the ones that hit them. Many entered the year expecting Fed cuts, tariff chaos and AI as an unstoppable one-way trade. Instead, a war-driven oil shock pushed central banks worldwide back toward tightening. The Supreme Court disrupted the tariff regime without ending it. The AI trade went from a question of demand to one of financing, as free cash flow at Alphabet and Meta turned negative and credit markets began pricing risk at Oracle and the data-center developers. Leadership broadened in a way few predicted, toward energy, small caps and emerging markets. For index investors, the S&P 500 is more concentrated than ever just as its biggest theme faces its first serious test.
+
+The most useful takeaway is that 2026 has made the long-term basics easier to follow, not harder. Safe assets pay a real return again, so an emergency fund and short-term savings no longer lose ground to inflation. Valuations are not extreme on forward earnings, though they depend on AI profits arriving on schedule. The cost of reacting to headlines was on display in the 48 hours after the midterms. An investor who keeps costs low, uses Roth and 401(k) tax advantages, diversifies beyond the Magnificent 7, and keeps speculation small is positioned for whichever way December's Fed decision, the AI earnings test and the Hormuz talks turn out.
+
+<!-- tab: Exact numbers -->
+
+## Every number in one place
+
+This tab collects every figure in the report in one place. Each row has a **confidence** rating so you can tell solid numbers from shaky ones:
+
+- **Firm**: from an official release or filing (BEA, FRED, Freddie Mac, FactSet, SEC filings, IRS/Rev. Proc.), or reported the same way by several major outlets.
+- **Reported**: from one reputable outlet (CNBC, Reuters, Bloomberg, NPR and similar) and not cross-checked.
+- **Weak**: from an aggregator or blog, contradicted by another source, or still changing (such as uncalled races).
+
+> [!CAVEAT] "Exact" means exact as reported
+> Research could only read news and search *summaries* of these sources, not the original documents. A figure marked Firm was very likely reported correctly, but it was still not read off the original page. Before you act on a number, check it against the primary source. Market prices are mostly **Friday Nov 6, 2026 closes**.
+
+### Market snapshot
+
+| Asset | Latest level | Recent move | 2026 context |
+|---|---|---|---|
+| S&P 500 | 7,376.86 (Nov 6) | −2.7% on the week | ~+7.8% YTD price, ~+8.7% total return; record 7,818.93 on Oct 6 |
+| Nasdaq Composite | 24,579.42 | −3.4% wk, 4th straight weekly loss | Entered correction Nov 5; ~+5% YTD (weakly sourced) |
+| Russell 2000 | n/a | ~−2% wk | ~+11% YTD, best US major index |
+| 10-yr Treasury | ~4.86% | down ~7bp on week | Peaked 5.67% on Oct 7 |
+| 2-yr Treasury | ~4.51% | — | +104bp YTD, as markets priced Fed hikes |
+| Fed funds | 3.75–4.00% | Held Oct 28 (10–2) | Hiked Sept 16; Dec hike priced ~76–83% |
+| Brent crude | ~$98.32 | −15 to −17% on week | ~$72 pre-war; futures high $126.41 (Apr 30) |
+| Gold | ~$4,050–4,090/oz | +4.5–5% on week | Record ~$5,405 (Jan 29); ~−5.8% YTD |
+| Bitcoin | ~$75–76k | −2% since Nov 1 | Spot ETF flows net negative for 2026 |
+| Dollar index | ~101.5–102.3 | +0.75% on jobs day | Sources conflict on level |
+| 30-yr mortgage | 7.18% | 3rd weekly decline | 2026 low 5.98% (late Feb) |
+
+Sources: S&P levels ([chartrow](https://chartrow.com/sp500/ytd), an aggregator, and [CNBC](https://www.cnbc.com/2026/11/06/stock-market-next-week-outlook-for-nov-9-13-2026.html)); Nasdaq and Russell ([Investomine](https://investomine.substack.com/p/weekly-market-report6-november-2026); [T. Rowe Price](https://www.troweprice.com/personal-investing/resources/insights/global-markets-weekly-update.html)); yields ([ETF Trends](https://www.etftrends.com/fixed-income-content-hub/treasury-yields-snapshot-november-6-2026/); [Trading Economics](https://tradingeconomics.com/united-states/government-bond-yield)); Fed ([CNBC](https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html)); oil ([Trading Economics](https://tradingeconomics.com/commodity/brent-crude-oil/news/530749); [IranWire/Reuters](https://iranwire.com/en/news/159893-global-oil-prices-drop-sharply-amid-reports-of-potential-iranus-peace-talks)); gold ([USAGOLD](https://www.usagold.com/daily-precious-metals-market-report-november-6-2026/); [Kitco](https://www.kitco.com/price/precious-metals)); bitcoin and dollar ([Ted Pillows Substack](https://tedpillows.substack.com/p/crypto-and-finance-market-report-65f); [Discovery Alert](https://discoveryalert.com/analysis/dollar-index-gold-liquidity-dxy-november-2026/)); mortgages ([Freddie Mac](https://www.globenewswire.com/news-release/2026/11/05/3396882/0/en/mortgage-rates-decline-for-third-consecutive-week-to-7-18.html)).
+
+### Stocks, earnings and valuation
+
+| Metric | Value | As of | Confidence | Source |
+|---|---|---|---|---|
+| S&P 500 close | 7,376.86 | Nov 6 | Reported | CNBC; chartrow |
+| S&P 500 YTD (price / total return) | +7.8% / +8.7% | Nov 6 | Weak | chartrow (aggregator) |
+| S&P 500 record close | 7,818.93 | Oct 6 | Reported | CNBC |
+| S&P 500 2026 closing low | 6,343.72 | Mar 30 | Weak | chartrow (aggregator) |
+| S&P 500 200-day moving average | ~7,306 | Nov 6 | Reported | BTIG via CNBC |
+| Nasdaq Composite close | 24,579.42 | Nov 6 | Reported | Investomine |
+| Nasdaq Composite YTD | ~+5% | Nov 6 | Weak | aggregator |
+| Russell 2000 YTD | ~+11% | Nov 6 | Reported | T. Rowe Price |
+| MSCI Emerging Markets YTD (USD) | +23.89% | Oct 6 | Reported | D.A. Davidson |
+| MSCI EAFE YTD (USD) | +7.19% | Oct 6 | Reported | D.A. Davidson |
+| Nikkei 225 peak / latest | ~71,477 (mid-Jun) / below 60,000 | Nov 6 | Reported | Saxo; CNBC |
+| Q3 S&P 500 EPS growth | +31.4% | Nov 6 | Firm | FactSet |
+| Q3 revenue growth | +14.3% | Nov 6 | Firm | FactSet |
+| Share of companies beating EPS estimates | 84% (5-yr avg 78%) | Nov 6 | Firm | FactSet |
+| Forward 12-month P/E | 17.7 (5-yr avg 19.8; 10-yr avg 19.1) | Nov 6 | Firm | FactSet |
+| 2027 EPS growth estimate | +16.1% (Goldman: +18%) | Nov 6 | Firm | FactSet; Goldman via Yahoo |
+| Magnificent 7 EPS growth vs other 493 | ~+22.6% vs ~+32.6% | Q3 | Weak | secondary write-up |
+| Magnificent 7 share of S&P 500 | ~33–35% | Nov | Reported | Motley Fool; Forbes |
+| Energy sector YTD | ~+53% | early Nov | Weak | aggregator |
+| Technology sector YTD | +21% to +32% (conflict) | Oct–Nov | Weak | aggregators |
+| Communication Services YTD | ~−14% | early Nov | Weak | aggregator |
+| Nov 4 (post-midterm) | Dow +1,569 (+3%); S&P +1.6–2% | Nov 4 | Firm | CNN; Fidelity |
+| Nov 5 (AI selloff) | S&P −4.4%; Nasdaq −5.2 to −5.5%; chips −12.2% | Nov 5 | Reported | CNBC; The National |
+| Magnificent 7 value lost Nov 5 | ~$1 trillion | Nov 5 | Reported | CNBC |
+| Retail net selling of single stocks Nov 5 | $257M | Nov 5 | Reported | Yahoo Finance |
+| US IPO proceeds 2026 (record) | ~$148.3B (2021: $142.4B) | early Nov | Reported | Renaissance Capital via BBAE |
+| SpaceX IPO | ~$75B raised at $135/share | June | Reported | NPR |
+| Strategist S&P targets | GS & MS 8,000 (end-2026); GS 8,700 (end-2027); MS 8,300 (mid-2027) | — | Reported | Bloomberg; Yahoo |
+
+### Fed, interest rates, inflation and the economy
+
+| Metric | Value | As of | Confidence | Source |
+|---|---|---|---|---|
+| Fed funds target range | 3.75–4.00% | after Sep 16 | Firm | CNBC; Chase (one source said 3.50–3.75%) |
+| Sep 16 decision | +25bp, first hike since 2023 | Sep 16 | Firm | Chase; CNBC |
+| Oct 28 decision | Hold, 10–2 (Cook, Hammack wanted a hike) | Oct 28 | Firm | CNBC |
+| Market odds of a Dec 9 hike | ~76–83% | Nov 6 | Weak | BYDFi; Substack |
+| Sep dot-plot median, end-2026 | 4.1% (implies one more hike) | Sep 16 | Reported | Chase |
+| Fed chair | Kevin Warsh (confirmed 54–45; sworn in May 22) | May 22 | Firm | PBS |
+| 2-yr Treasury yield | 4.51% (+104bp YTD) | Nov 6 | Reported | ETF Trends |
+| 10-yr Treasury yield | ~4.86% (peak 5.67% Oct 7) | Nov 6 | Reported | ETF Trends; Trading Economics |
+| 30-yr Treasury yield | 5.26% (~+40bp YTD) | Nov 6 | Reported | ETF Trends |
+| 10-yr minus 2-yr spread | ~+32bp | Nov 6 | Reported | derived from above |
+| 3-month T-bill (monthly avg, discount basis) | 4.05% | Oct | Firm | FRED TB3MS |
+| 30-yr fixed mortgage | 7.18% (2026 low 5.98%; year ago 6.22%) | Nov 5 | Firm | Freddie Mac |
+| CPI inflation, YoY | 3.7% | Sep | Reported | TD Economics |
+| Core CPI, YoY | 2.6% (looks inconsistent) | Sep | Weak | summary |
+| PCE inflation / core PCE, YoY | 3.6% / 3.1% | Sep | Reported | CNBC |
+| Real GDP growth (annualized) | 3.4% | Q3 (advance) | Firm | BEA |
+| Nonfarm payrolls | +165,000 (consensus ~60,000) | Oct | Reported | CNBC |
+| Unemployment rate / U-6 | 4.1% / 7.9% | Oct | Reported | CNBC |
+| ECB deposit rate | 2.50% (held Oct 29) | Oct 29 | Reported | Trading Economics |
+| Bank of Japan policy rate | 1.25% (held Oct 30) | Oct 30 | Reported | Trading Economics |
+| Bank of England Bank Rate | 4.0% (hike Nov 5) | Nov 5 | Weak | single source |
+
+### Oil, metals, currencies and crypto
+
+| Metric | Value | As of | Confidence | Source |
+|---|---|---|---|---|
+| Brent crude | $98.32 | Nov 6 | Reported | Reuters via IranWire |
+| Brent before the war | ~$72 | late Feb | Reported | Alupetra; CNBC |
+| Brent futures high | $126.41 ("$131 spot" and "nearly $120" also reported) | Apr 30 | Weak | conflicting |
+| Brent recent high | $116.72 | Oct 23 | Reported | Foreign Affairs Forum |
+| WTI crude | $90.83 | Nov 6 | Reported | market wraps |
+| Gold | ~$4,050–4,090/oz | Nov 6 | Reported | USAGOLD; Kitco |
+| Gold record | ~$5,405 ($5,379–5,595 in other sources) | Jan 29 | Weak | SSGA/WGC; conflicting |
+| Silver | ~$52/oz (−18.6% in October) | Nov 6 | Reported | CME Group |
+| Copper | $6.26/lb (+9.9% YTD; record $6.89 Sep 9) | Nov 6 | Weak | Macrotrends; blogs |
+| US dollar index (DXY) | ~101.5–102.3 | Nov 6 | Weak | conflicting |
+| USD/JPY | ~158 | late Oct | Reported | CNBC |
+| Bitcoin | ~$75,000–76,000 | Nov 6 | Reported | market wraps |
+| Ether | ~$2,200 | Nov 6 | Reported | market wraps |
+| Spot bitcoin ETF net flows, 2026 | −$0.5B to −$0.9B (−$1.28B in week to Nov 6) | Nov 6 | Weak | MLQ.ai |
+| Crypto Fear & Greed Index | 28 | early Nov | Weak | Cryptoticker |
+
+### AI
+
+| Metric | Value | As of | Confidence | Source |
+|---|---|---|---|---|
+| Big-4 hyperscaler 2026 capex guidance | ~$720–745B | late Oct | Weak | Alpha Agentic tracker |
+| Big-4 2027 capex (sell-side estimate) | ~$1.14T | late Oct | Weak | Goldman via Yield Theory |
+| Alphabet 2026 capex guidance | $195–205B | Q3 call | Reported | CNBC |
+| Alphabet Q3 capex / free cash flow | ~$51.4B / ~−$9B | Q3 | Weak | secondary |
+| Alphabet stock reaction | −12.6% | earnings day | Reported | secondary |
+| Amazon 2026 capex / Q3 capex | ~$220B / $77.3B | Q3 | Reported | CNBC |
+| AWS revenue growth | +39% | Q3 | Reported | CNBC |
+| Microsoft Azure growth | +48% | FQ1 | Reported | CNBC |
+| Microsoft calendar-2026 capex | ~$170–175B (fiscal/calendar mixed) | — | Weak | trackers |
+| Meta 2026 capex guidance | $135–145B | Q3 call | Reported | CNBC |
+| Meta Q3 free cash flow / stock reaction | −$2.1B / −7% | Q3 | Reported | CNBC |
+| Oracle credit rating | BBB− (one notch above junk) | July | Reported | Axios |
+| Oracle backlog / share from OpenAI | $664B / ~45% | Sep | Reported | Axios; IntuitionLabs |
+| Nvidia quarterly revenue (qtr to Jul 26) | $96.2B (+106% YoY); data center $89B | Aug | Firm | Nvidia 8-K |
+| Nvidia gross margin | ~75% | Aug | Firm | Nvidia 8-K |
+| Nvidia next earnings | Nov 17 | — | Weak | single source |
+| AMD Q3 revenue / Q4 guide | $13.4B / ~$17B | Nov 3 | Firm | AMD release |
+| AMD warrant charge (OpenAI, Meta) | $1.1B | Q3 | Firm | AMD release |
+| TSMC Q3 revenue | ~$46.7B (+51%) | Q3 | Reported | Yahoo Finance |
+| Anthropic H1 2026 revenue | $16.3B (~14× a year earlier) | S-1, Oct 26 | Reported | Fortune |
+| Anthropic Q3 revenue / compute commitments | ~$17B / $895B | amended S-1 | Weak | secondary |
+| Anthropic IPO valuation talk | $1.25–2T (last private ~$965B) | late Oct | Weak | reports conflict |
+| OpenAI new raise | up to $30B at $1.25T pre-money | Oct 22 | Reported | CNBC; TechCrunch |
+| OpenAI revenue run-rate (net) | ~$50B | Oct | Reported | press |
+| PJM capacity price | $329/MW-day (from $29 two years earlier) | 2026 auction | Reported | oilandgas360 |
+| AI-exposed jobs, ages 22–25 | ~19% lower employment vs less-exposed peers | 2026 | Reported | Stanford SIEPR |
+
+### Politics, policy and trade
+
+| Metric | Value | As of | Confidence | Source |
+|---|---|---|---|---|
+| Senate after midterms | ~54 D – 44 R (Alaska, Mississippi uncalled) | Nov 7 | Weak | AP via Yahoo; still counting |
+| House after midterms | ~254 D – 162 R (19 uncalled, one tally) | Nov 7 | Weak | AP-based tally; still counting |
+| Supreme Court IEEPA tariff ruling | Struck down, 6–3 (*Learning Resources v. Trump*) | Feb 20 | Firm | Holland & Knight |
+| Section 122 global surcharge | 10%, Feb 24 – Jul 24 | — | Reported | Troutman |
+| Section 301 replacement tariffs | mostly 10–12.5% | from Jul 24 | Reported | Wiley tracker |
+| Average statutory US tariff rate | ~11.1% | fall 2026 | Reported | Yale Budget Lab |
+| IEEPA refunds certified (incl. interest) | ~$126B (claims accepted ~$136.6B) | Oct 2 | Reported | C.H. Robinson |
+| Patented-drug tariff | 100% (phased in Jul 31, Sep 29) | — | Reported | Wiley |
+| Government funding deadline | Dec 11, 2026 | — | Reported | Holland & Knight; IEDC |
+| Debt limit binding / X-date | ~May 2027 / ~Feb 2028 | projection | Reported | NTU |
+| OBBBA added deficits | ~$3.4T through 2034 (later estimates $4.1–4.7T) | CBO, Jul 2025 | Firm | CRFB |
+| Trump approval / net on economy | 38.3% / −31.1 | Nov 6 | Reported | Silver Bulletin |
+| US government equity stakes | Intel ~10%; MP Materials 15% | 2026 | Reported | Benzinga via Yahoo |
+| US–China truce expiry | Jan 10, 2027 | Sep summit | Reported | CNBC |
+
+### Global economy
+
+| Metric | 2026 | 2027 | Confidence | Source |
+|---|---|---|---|---|
+| World GDP growth (IMF) | 3.1% | 3.4% | Reported | IMF WEO Oct 2026 via Fortune |
+| World inflation (IMF) | 4.7% | 4.1% | Reported | IMF via summaries |
+| US GDP growth (IMF) | 2.3% | 2.3% | Reported | IMF briefing |
+| China GDP growth (IMF) | 4.5% | 4.0% | Reported | IMF briefing |
+| Euro area GDP growth (IMF) | 1.1% | 1.2% | Reported | EACC |
+| Japan GDP growth (IMF) | 0.7% | 0.7% | Reported | IMF briefing |
+| India GDP growth (IMF) | ~7% | — | Weak | summary |
+
+| Other global metric | Value | As of | Confidence | Source |
+|---|---|---|---|---|
+| China Q3 GDP / property investment | +4.5% / −20.6% | Q3 | Reported | Al Jazeera; CES |
+| 30-yr Japanese government bond record | 4.235% | Oct 5 | Reported | Admiral Markets |
+| France–Germany 10-yr spread | ~153bp | Oct | Reported | Euronews |
+| NATO Europe + Canada defense spending | ~$634B (+11%) | 2026 | Reported | Goldman Sachs |
+| Rheinmetall YTD | ~−35% | Nov | Weak | one analysis |
+
+### Personal-finance numbers for 2026
+
+| Item | Value | Confidence | Source |
+|---|---|---|---|
+| 401(k)/403(b)/457/TSP employee limit | $24,500 | Firm | IRS release via Accounting Today, CBS |
+| 401(k) catch-up: 50+ / ages 60–63 | $8,000 / $11,250 | Reported | not re-checked on irs.gov |
+| IRA limit (Roth or traditional) | $7,500 (+$1,100 at 50+) | Firm / Reported | IRS release via press |
+| Roth IRA phase-out, single | $153,000–$168,000 | Reported | not re-checked on irs.gov |
+| HSA limit: self / family | $4,400 / $8,750 (+$1,000 at 55+) | Firm | IRS via press |
+| 0% long-term capital gains rate up to | $49,450 single / $98,900 married | Firm | Rev. Proc. 2025-32 |
+| 15% rate up to | $545,500 single / $613,700 married | Firm | Rev. Proc. 2025-32 |
+| I bond rate (Nov 2026 – Apr 2027) | 5.51% (1.40% fixed) | Reported | secondary reports of Treasury notice |
+| I bond purchase cap | $10,000 per person per year (electronic) | Reported | TreasuryDirect rule |
+| Expected 2027 401(k) limit | $25,500 | Weak | forecast, not official |
+
+### Long-run evidence
+
+| Item | Value | Confidence | Source |
+|---|---|---|---|
+| US stocks, annual return 1928–2025 | ~10.0% nominal (~6.9% real) | Reported | Damodaran data via A Wealth of Common Sense |
+| 10-yr Treasuries, annual return | ~4.5–4.9% | Reported | same |
+| 3-month T-bills, annual return | ~3.3% | Reported | same |
+| Active large-cap funds trailing S&P 500 | 79% (2025); ~90% over 15 years | Reported | SPIVA via InvestmentNews |
+| Lump sum beat dollar-cost averaging | ~68% of the time | Reported | Vanguard (2023) |
+| Investor return vs fund return, 10 yrs | 8.7% vs 9.9% a year | Reported | Morningstar *Mind the Gap* 2026 |
+
+<!-- tab: Buying a stock -->
+
+## Factors to consider before buying a stock
+
+> [!SUMMARY] The short version
+> A share of stock is a claim on a company's future cash flows. Your return depends on two things: how those cash flows grow, and **the price you pay for them today**. A great company bought at too high a price can still be a bad investment. Before buying any single stock, you should be able to explain what the company does, why it will keep earning money, what could go wrong, and what growth the current price already assumes.
+
+This tab covers general principles that investors and analysts use. It is not a recommendation to buy or sell any security. Companies named below are examples taken from the news in the other tabs, not picks.
+
+### Step 0: decide whether to pick stocks at all
+
+Most professional stock pickers fail to beat an index fund over long periods. About 9 in 10 large-cap funds trailed the S&P 500 over 15 years (see *Basics*). A common approach is **"core and satellite"**: keep the core of your portfolio in low-cost diversified funds, and limit individual stocks to a small slice you can afford to get wrong. Many guides suggest no more than 5–10% of your portfolio for this. That figure is a rule of thumb, not a law. Check these first:
+
+- [ ] Emergency fund in place, and no high-interest debt
+- [ ] You won't need this money for at least 5 years
+- [ ] You can watch the stock fall 30–50% without selling in a panic
+- [ ] You know how much of the company you **already own** through index funds
+
+```mermaid
+flowchart TD
+  A["Idea: I want to buy stock X"] --> B{"Emergency fund and no high-interest debt?"}
+  B -- No --> Z["Fix that first"]
+  B -- Yes --> C{"Can you explain how X makes money in two sentences?"}
+  C -- No --> Y["Keep researching or skip"]
+  C -- Yes --> D{"Durable advantage, positive free cash flow, manageable debt?"}
+  D -- No --> X1["Treat as speculation: tiny position or skip"]
+  D -- Yes --> E{"Does the price assume growth you find realistic?"}
+  E -- No --> W["Add to watchlist and wait for a better price"]
+  E -- Yes --> F["Size the position small, write down your thesis, buy with a limit order"]
+```
+
+### The checklist
+
+| Factor | What to look at | Good sign | Red flag |
+|---|---|---|---|
+| **The business** | What it sells, who pays, how often | Recurring revenue; you understand it | Can't explain it simply |
+| **Competitive advantage (moat)** | Network effects, switching costs, brand, scale, patents | High returns on capital sustained for years | Price wars, commoditized product |
+| **Growth** | Revenue growth, and whether it comes from price or volume | Organic growth in a growing market | Growth mostly bought through acquisitions |
+| **Profitability** | Gross and operating margins and their trend | Stable or rising margins | Shrinking margins, "adjusted" profits only |
+| **Free cash flow** | Operating cash flow minus capital spending | Free cash flow positive and close to net income | Profits but persistently negative cash flow |
+| **Balance sheet** | Net debt/EBITDA, interest coverage, credit rating | Net debt under about 2–3× EBITDA; coverage over about 5× | Rating near junk; credit spreads widening |
+| **Dilution and capital use** | Share count trend, stock-based pay, buybacks, dividends | Share count flat or falling | Repeated share sales; heavy stock-based pay |
+| **Management and governance** | Insider ownership, track record vs guidance, voting rights | Insiders own shares; honest guidance | Dual-class control; frequent guidance misses |
+| **Valuation** | P/E, EV/EBITDA, free cash flow yield vs peers and history | Price assumes modest growth | Price assumes years of perfect execution |
+| **Risks** | Customer concentration, regulation, tariffs, China, rates, oil | Diversified customers and suppliers | One customer is a large share of revenue |
+
+The 2026 news shows what several of these red flags look like in practice. Alphabet and Meta both grew revenue fast, but AI capital spending turned their **free cash flow negative**, and their stocks fell 12.6% and 7% on earnings day. Oracle combines **customer concentration** (about 45% of a $664B backlog from one customer, OpenAI) with a **credit rating one notch above junk**. AMD gave **warrants (rights to buy its shares) to its own customers**, a form of financing that dilutes existing shareholders. None of this means these stocks will go down. It shows the checklist questions that the market itself started asking this year.
+
+### Valuation cheat sheet
+
+| Metric | Formula | What it tells you | Rough guide |
+|---|---|---|---|
+| P/E | Price ÷ earnings per share | Dollars paid per $1 of profit | S&P 500 forward P/E is 17.7 (10-yr avg 19.1) |
+| Earnings yield | Earnings ÷ price (1 ÷ P/E) | Profit return at today's price | Compare with the 10-yr Treasury (~4.9%) |
+| PEG | P/E ÷ expected growth rate (%) | P/E adjusted for growth | ~1 is often called "fair"; a rough heuristic |
+| EV/EBITDA | (Market cap + debt − cash) ÷ EBITDA | Valuation that accounts for debt | Compare within the same industry |
+| Price/sales | Market cap ÷ revenue | Used when there are no profits yet | A high multiple requires big future margins |
+| Free cash flow yield | Free cash flow ÷ market cap | Cash the business actually generates | Below the T-bill yield needs strong growth |
+| Dividend payout ratio | Dividends ÷ earnings | How safe the dividend is | Above ~80–100% is a warning (except REITs) |
+| ROIC | Operating profit after tax ÷ invested capital | Quality of the business | Sustained above ~10–15% suggests a moat |
+
+**Safe assets compete with stocks right now.** At a forward P/E of 17.7, the S&P 500's earnings yield is about 5.6%. That is only about 0.8 points above the 10-year Treasury and roughly equal to the I bond rate. In the 2010s, when bonds paid close to nothing, that gap was much wider. A thin gap means the market depends more on earnings *growth* to justify prices.
+
+```chart
+{
+  "type": "bar",
+  "title": "What stocks earn vs what safe assets pay (Nov 2026)",
+  "caption": "S&P 500 earnings yield = 1 / 17.7 forward P/E (this report's calculation). Treasury and T-bill yields are approximate Nov 6 levels and the October average; I bond rate for purchases Nov 2026 – Apr 2027. Sources: FactSet, ETF Trends, FRED, Treasury via secondary reports.",
+  "data": {
+    "labels": ["S&P 500 forward earnings yield", "I bond (Nov 2026)", "10-yr Treasury", "3-month T-bill"],
+    "datasets": [ { "label": "Yield (%)", "data": [5.65, 5.51, 4.86, 4.05] } ]
+  },
+  "options": { "indexAxis": "y", "scales": { "x": { "min": 0 } } }
+}
+```
+
+### What growth is already in the price?
+
+A quick test is to work backward from today's price. Suppose a stock trades at **40× earnings**, and you would be comfortable paying about 20× in five years. Earnings then need to double over five years, about 15% growth a year:
+
+$$
+\frac{40}{20} = 2 = (1+g)^5 \;\Rightarrow\; g \approx 14.9\%\ \text{per year}
+$$
+
+At 20% annual growth, earnings rise 2.49× and the stock trades at about 16× year-5 earnings, which leaves room for a gain. At 10% growth, earnings rise only 1.61×. To hold the price flat, the market would still have to pay about 25× in year five. Anything less and you lose money, even though the company grew. **High-P/E stocks are bets on high growth continuing.** That is why AI stocks fell sharply in November on news that might slow the build-out.
+
+### Factors specific to the 2026 landscape
+
+- **Interest rates.** The Fed is hiking, not cutting, and a December hike is likely. Long-dated growth stocks, whose value lies mostly in distant profits, tend to fall the most when yields rise. Check how much of a company's value depends on profits many years out.
+- **Oil and the Iran war.** Energy stocks are up about 53% this year with oil still roughly 35–40% above its pre-war price. Brent fell 15% in a single week on peace hopes, and defense stocks fall on every peace headline. Buying after a big run means buying the headline risk too.
+- **AI: separate three groups.** First, suppliers with profits now, such as chipmakers with ~75% gross margins. Second, spenders whose free cash flow has turned negative. Third, the debt-funded middle layer: data-center builders, Oracle and their lenders. These carry very different risks. Ask who pays for the build-out out of cash and who borrows to do it.
+- **Politics and regulation.** Democrats control Congress from January, and voters rejected 39 of 40 data-center ballot measures. Tariffs are now mostly Section 301 rates of 10–12.5%, with 100% on patented drugs, and the US–China truce expires Jan 10, 2027. Check a company's 10-K for China revenue, imported inputs and regulatory exposure.
+- **Concentration.** The Magnificent 7 are about a third of the S&P 500. If you own an index fund and then buy Nvidia or Microsoft separately, you are doubling a bet you already hold.
+- **IPOs.** Anthropic may list within weeks, OpenAI plans a 2027 IPO, and SpaceX listed in June. Academic research on IPOs (notably Jay Ritter's) finds that, on average, newly listed companies have underperformed comparable stocks over the following years. The first-day "pop" mostly goes to investors who received allocations at the offer price. Insider share sales are often restricted for about 180 days after listing (the "lockup"), and prices often weaken when those restrictions end. If you buy an IPO, use a limit order and a small position.
+- **Earnings dates.** Single stocks can move ±10% on one report. Alphabet fell 12.6% and Meta 7% in October, and Nvidia reports around Nov 17. Know the date before you buy.
+
+### How to actually buy (and when to sell)
+
+1. **Choose the account.** Gains in a Roth IRA grow tax-free, but losses there can't be deducted. In a taxable account, holding for **more than one year** brings the 0/15/20% long-term capital gains rates instead of ordinary income rates.
+2. **Use a limit order**, which sets the highest price you will pay, rather than a market order. This matters most at the market open, in volatile stocks and in IPOs. Fractional shares let you buy expensive stocks in small amounts.
+3. **Avoid margin, options and leveraged ETFs** while you are learning. Leveraged ETFs reset daily and can lose value even when the index ends flat.
+4. **Write down your thesis**: why you are buying, what you expect, and what would prove you wrong. Sell when the *thesis* breaks, not just because the *price* fell. Review it after each quarterly report.
+5. **Size and rebalance.** Cap any single stock at a set share of your portfolio, and trim it if a winner grows past that cap.
+6. **Watch the wash-sale rule.** If you sell at a loss for tax purposes, don't buy the same stock back within 30 days, including in your IRA.
+
+> [!WARNING] Red flags that should stop you
+> - Revenue rising while operating cash flow stays negative year after year
+> - Receivables or inventory growing much faster than sales
+> - Heavy reliance on "adjusted" earnings that exclude stock-based pay and recurring "one-time" costs
+> - Repeated share sales, or new share classes with no votes
+> - Restatements, auditor changes, or a late 10-K
+> - One customer making up a large share of revenue
+> - Buybacks paid for with debt while the credit rating falls
+> - A stock pushed mainly on social media, or one you are buying mainly because it already went up
+
+### Where to find the information
+
+- **SEC EDGAR** (sec.gov): annual 10-K and quarterly 10-Q reports. Read *Item 1 (Business)*, *Item 1A (Risk Factors)* and *MD&A*. 8-K filings carry news and earnings releases, and S-1 filings are IPO prospectuses.
+- **Company investor relations pages**: earnings slides, call transcripts and guidance.
+- **Your broker's research tools** for valuation multiples, analyst estimates and peer comparisons. Treat analyst price targets as opinions.
+- **The Exact numbers tab** for the macro backdrop each stock is trading against.
+
+<!-- tab: Basics -->
+
 ## Investing fundamentals: the primer
 
 News explains why prices moved last week. Fundamentals decide how much money you end up with. This section covers the core toolkit for a US investor.
@@ -350,27 +687,7 @@ Three bodies of research do most of the work here. **Index funds beat most activ
 
 **Match bonds to time horizons, not to the news.** Money needed within about 1–3 years belongs in cash, T-bills or short-term bonds, not long-duration bond funds, which can drop if the Fed hikes in December or oil spikes again. For decades-long money, current starting yields near 4.5–5% make bonds a more useful diversifier than they were in the 2010s.
 
-## What to watch next
-
-| Date | Event | Why it matters |
-|---|---|---|
-| Nov 10 | October CPI (no headline YoY rate) | Sets the tone for the December Fed decision |
-| ~Nov 10–11 | US–Russia–Ukraine talks, Abu Dhabi | Defense stocks, European risk |
-| Nov 17 (reported) | Nvidia earnings | Biggest single test for the AI trade |
-| Nov 19 | Bids due on data-center loan auction | Signal of AI credit stress |
-| Before Nov 26 (target) | Possible Anthropic IPO | First public valuation of a frontier AI lab |
-| Dec 8–9 | FOMC meeting (~76–83% hike odds) | Bonds, mortgages, stock valuations |
-| Dec 11 | Government funding deadline | Shutdown risk and possible data delays |
-| Jan 10, 2027 | US–China truce and rare-earth suspension expire | Tariffs, chips, supply chains |
-| Ongoing | US–Iran talks and Hormuz shipping | Oil, inflation and the Fed |
-
-Sources: [StockTitan](https://www.stocktitan.net/articles/october-2026-cpi-preview-no-yearly-rate), [Axios](https://www.axios.com/2026/11/03/us-russia-ukraine-peace-talks-uae-trump-witkoff-kushner), [top1markets](https://www.top1markets.com/news/qqq-stock-nasdaq-100-selloff-ai-capex-nvidia-earnings) (single source for the Nvidia date), [Startup Fortune](https://startupfortune.com/a-500-million-pile-of-data-center-loans-just-hit-the-auction-block/), [mlq.ai](https://mlq.ai/news/anthropics-ipo-what-we-know-about-the-timing-valuation-ticker-and-the-s-1/), [MPA](https://www.mpamag.com/us/mortgage-industry/industry-trends/key-dates-that-will-define-kevin-warshs-opening-months-as-fed-chair/576298), [IEDC](https://www.iedconline.org/news/2026/09/09/this-week-in-iedc-news/congress-passes-short-term-funding-bill-extending-federal-funding-through-december-11/), [Mainrich](https://www.mainrichinternational.com/resources/articles/trump-xi-summit-september-2026-rare-earth-magnet-export-controls).
-
-## Conclusion
-
-The main lesson of 2026 is that the risks investors expected were not the ones that hit them. Many entered the year expecting Fed cuts, tariff chaos and AI as an unstoppable one-way trade. Instead, a war-driven oil shock pushed central banks worldwide back toward tightening. The Supreme Court disrupted the tariff regime without ending it. The AI trade went from a question of demand to one of financing, as free cash flow at Alphabet and Meta turned negative and credit markets began pricing risk at Oracle and the data-center developers. Leadership broadened in a way few predicted, toward energy, small caps and emerging markets. For index investors, the S&P 500 is more concentrated than ever just as its biggest theme faces its first serious test.
-
-The most useful takeaway is that 2026 has made the long-term basics easier to follow, not harder. Safe assets pay a real return again, so an emergency fund and short-term savings no longer lose ground to inflation. Valuations are not extreme on forward earnings, though they depend on AI profits arriving on schedule. The cost of reacting to headlines was on display in the 48 hours after the midterms. An investor who keeps costs low, uses Roth and 401(k) tax advantages, diversifies beyond the Magnificent 7, and keeps speculation small is positioned for whichever way December's Fed decision, the AI earnings test and the Hormuz talks turn out.
+<!-- /tabs -->
 
 <details>
 <summary>Methodology, data caveats and conflicting figures</summary>
@@ -395,6 +712,8 @@ The most useful takeaway is that 2026 has made the long-term basics easier to fo
 
 **Not found or not verified:** Shiller CAPE; Dow YTD; updated international YTD after Oct 6; credit spreads (IG/HY); current HYSA, money market and TIPS yields; official 2027 IRS limits; outcomes of the April and July FOMC meetings; detailed current US–China tariff levels; Russia sanctions; current status of a US–Iran deal. The historical drawdown figures and several tax rules (wash sale, NIIT, kiddie tax, $3,000 loss offset) are long-standing standard figures that were not re-verified in this research.
 
-**Own estimates and calculations (not from a source):** that S&P targets of 8,000 imply about +8.4%; Anthropic's ~18–30x run-rate multiple; ~$150B of AI-native annualized revenue; the fee-drag illustration (10,000 × 1.0697^40 ≈ $148k vs 10,000 × 1.06^40 ≈ $103k); and the approximate August Brent value used in the oil chart.
+**The "Buying a stock" tab** applies standard investing practice (checklists, valuation formulas, rules of thumb such as PEG ≈ 1 or net debt under 2–3× EBITDA) to the 2026 news. Its rules of thumb are conventions, not cited findings, and the IPO point refers to long-running academic research (e.g. Jay Ritter) without 2026-specific figures.
+
+**Own estimates and calculations (not from a source):** the S&P 500 earnings yield (1 ÷ 17.7 ≈ 5.6%) and the growth-implied-by-price examples in the "Buying a stock" tab; that S&P targets of 8,000 imply about +8.4%; Anthropic's ~18–30x run-rate multiple; ~$150B of AI-native annualized revenue; the fee-drag illustration (10,000 × 1.0697^40 ≈ $148k vs 10,000 × 1.06^40 ≈ $103k); and the approximate August Brent value used in the oil chart.
 
 </details>
